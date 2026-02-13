@@ -34,6 +34,7 @@ This project analyzes Blinkit retail data (8,523 rows × 12 columns) to identify
    - Linear Regression (baseline), Gradient Boosting, Random Forest
    - Best model: Random Forest (R² = 0.54, MAE = 31.31, RMSE = 42.57)
    - Feature importance highlights: Item Weight, Visibility Ratio, Item Visibility, Rating, Outlet Age
+   - Retail sales forecasting is inherently noisy and many key drivers such as pricing, promotions, and seasonality are not present in the dataset. Therefore, achieving an R² of 0.54 indicates that the model captures meaningful sales patterns and represents strong performance for the available data.
 ### Results & Insights
 - Total sales are highest for Supermarket Type1 outlets.
 - Item categories significantly impact sales; top categories include Dairy, Fruits & Vegetables, Snack Foods, Household.
